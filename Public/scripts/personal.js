@@ -813,7 +813,7 @@ $(document).ready (function () {
 	// 用户信息修改入口函数.
 	var edit_sub = function (data) {
 		var _url = 'http://' + window.location.host
-			+ '/index.php/user/edit_usr_info';
+			+ '/EZSYS/src/index.php/user/edit_usr_info';
 		$.post (_url, data,
 			function () {
 				var disp = $('span.gender i');
@@ -901,7 +901,7 @@ $(document).ready (function () {
 	$('#code_submit').click (
 		function () {
 			var _url = 'http://' + window.location.host
-				+ '/index.php/User/reset_passcode'
+				+ '/EZSYS/src/index.php/User/reset_passcode'
 			var p1 = $('#p1').val ();
 			var p2 = $('#p2').val ();
 			var p3 = $('#p3').val ();

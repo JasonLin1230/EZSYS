@@ -10,8 +10,6 @@
 <script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
 <script type="text/javascript" src="/EZSYS/src/Public/scripts/sys_utils.js"></script>
 <script type="text/javascript" src="/EZSYS/src/Public/scripts/login.js"></script>
-<!--忘记密码控制-->
-
 </head>
 <body>
 <div class="container">

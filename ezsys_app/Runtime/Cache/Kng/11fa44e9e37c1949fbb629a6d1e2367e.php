@@ -6,7 +6,7 @@
 		<link rel="shortcut icon" href="/EZSYS/src/Public/images/favicon.ico" />
 		<link rel="stylesheet" href="/EZSYS/src/Public/css/reset.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="/EZSYS/src/Public/css/style.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="/EZSYS/src/Public/css/invalid.css" type="text/css" media="screen" />
+		<!--<link rel="stylesheet" href="/EZSYS/src/Public/css/invalid.css" type="text/css" media="screen" />-->
 		<script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
 		<script type="text/javascript">
 			var usr_valid = function (_usr) {
@@ -34,8 +34,7 @@
 						$(this).next ().css ('display', 'none');
 					})
 					$('form').submit (function () {
-						if (usr_valid ($('#usr').val ()) && 
-								pwd_valid ($('#pwd').val ())) return true;
+						if (usr_valid ($('#usr').val ()) && pwd_valid ($('#pwd').val ())) return true;
 						else return false;
 					});
 			}).keypress (function (e) {
@@ -64,15 +63,6 @@
 						<input class="text-input" name="pwd" id="pwd" type="password" />&nbsp;<i style="display:none;color:red;"></i>
 					</p>
 					<div class="clear"></div>
-					<div align="center">
-						<!--<p id="remember-password">
-							<input type="checkbox" />记住我
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							<a href="/EZSYS/src/index.php/Reg/">注册</a>&nbsp;
-							<a href="/EZSYS/src/index.php/Login/forget_pwd">忘记密码</a>
-						</p>-->
-						<div class="clear"></div>
-					</div>
 				</form>
 			</div>
 		</div>

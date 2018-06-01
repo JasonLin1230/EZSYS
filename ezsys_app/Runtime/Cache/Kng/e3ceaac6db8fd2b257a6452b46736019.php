@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>登录</title>
-<link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/login_style.css" />
 <link rel="shortcut icon" href="/EZSYS/src/Public/images/favicon.ico" />
-<link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/login_body.css"/> 
+	<link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/login.css" />
 <link rel="Stylesheet" type="text/css" href="/EZSYS/src/Public/css/forgetPwdDialog.css" />
 <script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
 <script type="text/javascript" src="/EZSYS/src/Public/scripts/sys_utils.js"></script>

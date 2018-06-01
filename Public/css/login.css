@@ -1,41 +1,4 @@
 @charset "utf-8";
-/* Reset CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
-body {
-	background: #DCDDDF ;
-	color: #000;
-	font: 14px Arial;
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
-}
-h1{ font-size:28px;}
-h2{ font-size:26px;}
-h3{ font-size:18px;}
-h4{ font-size:16px;}
-h5{ font-size:14px;}
-h6{ font-size:12px;}
-h1,h2,h3,h4,h5,h6{ color:#563D64;}
-small{ font-size:10px;}
-b, strong{ font-weight:bold;}
-a{ text-decoration: none; }
-a:hover{ text-decoration: underline; }
 .clearfix:after,form:after {
 	content: ".";
 	display: block;
@@ -253,4 +216,51 @@ a:hover{ text-decoration: underline; }
 .button a:hover {
 	background-position: 0 -135px;
 	color: #00aeef;
+}
+/*query*/
+@-webkit-keyframes animate-cloud {
+	from {
+		background-position: 600px 100%;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-moz-keyframes animate-cloud {
+	from {
+		background-position: 600px 100%;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-ms-keyframes animate-cloud {
+	from {
+		background-position: 600px 100%;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-o-keyframes animate-cloud {
+	from {
+		background-position: 600px 100%;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+
+html{
+	height: 100%;
+}
+body{
+	background:url(../images/cloud.jpg) 0 bottom repeat-x  #049ec4;
+	-webkit-animation: animate-cloud 20s linear infinite;
+	-moz-animation: animate-cloud 20s linear infinite;
+	-ms-animation: animate-cloud 20s linear infinite;
+	-o-animation: animate-cloud 20s linear infinite;
+	animation: animate-cloud 20s linear infinite;
+	width: 100%;
+	height: auto;
 }

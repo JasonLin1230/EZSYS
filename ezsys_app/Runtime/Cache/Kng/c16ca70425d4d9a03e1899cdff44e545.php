@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <title>管理员中心</title>
     <link rel="shortcut icon" href="/EZSYS/src/Public/images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/admin_common.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/admin_common.css"/>-->
     <link rel="stylesheet" type="text/css" href="/EZSYS/src/Public/css/admin_main.css"/>
     <script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="/EZSYS/src/Public/scripts/modernizr.min.js"></script>
+    <script type="text/javascript" src="/EZSYS/src/Public/scripts/admin.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">

@@ -11,7 +11,6 @@
 		<script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
 		<script type="text/javascript" src="/EZSYS/src/Public/ckeditor/ckeditor.js"></script>
 		<!--<script type="text/javascript" src="/EZSYS/src/Public/scripts/facebox.js"></script>-->
-		<!--<script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery.wysiwyg.js"></script>-->
 		<!--<script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery.datePicker.js"></script>-->
 		<!--<script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery.date.js"></script>-->
 		<script type="text/javascript" src="/EZSYS/src/Public/scripts/sys_utils.js"></script>

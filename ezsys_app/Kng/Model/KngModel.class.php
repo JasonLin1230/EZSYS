@@ -15,8 +15,4 @@ class KngModel extends Model {
 			'kng_like', 'kng_cate_id');
 	protected $pk = 'kng_id';
 }
-
-
-
-
 ?>

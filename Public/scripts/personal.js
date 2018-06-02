@@ -107,7 +107,7 @@ function personal_kng_new () {
 // 知识管理 -> 我的草稿
 function personal_script_mine () {
 	var _url = 'http://' + window.location.host
-		+ '/index.php/Kng/personal_kng_script'; // 目前搜索发布知识。
+		+ '/EZSYS/src/index.php/Kng/personal_kng_script'; // 目前搜索发布知识。
 	var obj = $.ajax ({
 			url: _url, 
 			async: false,
@@ -307,7 +307,7 @@ function insert_kng () {
 // 保存知识业务
 function insert_script () {
 	var _url = 'http://' + window.location.host
-		+ '/index.php/Kng/insert_kng?tag=0xff';
+		+ '/EZSYS/src/index.php/Kng/insert_kng?tag=0xff';
 	var title_input = $('#small-input');
 	var share_input = $('#sharing');
 	var desc_input = CKEDITOR.instances.textfield;

@@ -17,13 +17,12 @@
     
     <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="/EZSYS/src/Public/css/zerogrid.css"/>
 	<link rel="stylesheet" href="/EZSYS/src/Public/css/main.css"/>
 	<link rel="stylesheet" href="/EZSYS/src/Public/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" />
 	<link rel="shortcut icon" href="/EZSYS/src/Public/images/favicon.ico" />
 	
 	<script src="/EZSYS/src/Public/ckeditor/ckeditor.js"></script>
-	<script src="/EZSYS/src/Public/scripts/jquery-latest.min.js"></script>
+	<script src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
 	<script src="/EZSYS/src/Public/scripts/sys_utils.js"></script>
 	<script type="text/javascript" src="/EZSYS/src/Public/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
 	<script type="text/javascript" src="/EZSYS/src/Public/scripts/main_page.js"></script>

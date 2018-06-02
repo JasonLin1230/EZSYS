@@ -5,7 +5,6 @@
 		<title>知识管理系统</title>
 		<link rel="stylesheet" href="/EZSYS/src/Public/css/reset.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="/EZSYS/src/Public/css/style.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="/EZSYS/src/Public/css/invalid.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="/EZSYS/src/Public/css/personal.css" type="text/css" media="screen" />
 		<link rel="shortcut icon" href="/EZSYS/src/Public/images/favicon.ico" />
 		<script type="text/javascript" src="/EZSYS/src/Public/scripts/jquery-1.12.3.min.js"></script>
